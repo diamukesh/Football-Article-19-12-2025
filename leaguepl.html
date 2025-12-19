@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premier League News</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    body {
+        background: #0e50df;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+
+    .league-card {
+        background: linear-gradient(135deg, #ffffff, #e0f7fa);
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border: 2px solid #00acc1;
+    }
+
+    .league-card img {
+        width: 200px;
+        height: 120px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto 15px auto;
+        border-radius: 10px;
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #007c91;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #006064;
+    }
+
+    p {
+        text-align: justify;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    .subtopic {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 25px;
+        color: #004d40;
+    }
+</style>
+</head>
+
+<body>
+       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WEEKLY Article</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotnews.html">Hot News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Team
+                            News</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="teamnewsare.html">Aresnal</a></li>
+                            <li><a class="dropdown-item" href="teamnewsche.html">Chelsea</a></li>
+                            <li><a class="dropdown-item" href="teamnewsman.html">Manchester CITY</a></li>
+                            <li><a class="dropdown-item" href="teamnewsreal.html">Real Madrid.</a></li>
+                        </ul>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="upcomingpl.html">Upcoming Fixtures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="youropinion.html">Your Opinion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matchsummaries.html">Match Summaries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="readabook.html">READ
+                            A Book</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link"
+                            href="Prompt(trial)Article.html">
+                            Home</a>
+                    </li>
+                         <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">League
+                            News</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="leaguepl.html">Premier lEAGUE</a></li>
+                              <li><a class="dropdown-item" href="leaguelaliga.html">lA lIGA</a></li>
+                            <li><a class="dropdown-item" href="leagueligue1.html">lIGUE 1 </a></li>
+                            <li><a class="dropdown-item" href="leagueseriea.html">Serie A</a></li>
+                            <li><a class="dropdown-item" href="leagueucl.html">UCL</a></li>
+                            <li><a class="dropdown-item" href="leaguebud.html">Bundesliga</a></li>
+                        </ul>
+                             <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Offical Websites
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.premierleague.com/en/">Premier lEAGUE</a></li>
+                            <li><a class="dropdown-item" href="https://www.laliga.com/en-GB">lA lIGA</a></li>
+                            <li><a class="dropdown-item" href="https://ligue1.com/en/competitions/ligue1mcdonalds/standings">lIGUE 1 </a></li>
+                            <li><a class="dropdown-item" href="https://www.legaseriea.it/en">Serie A</a></li>
+                            <li><a class="dropdown-item" href="https://www.uefa.com/uefachampionsleague/">UCL</a></li>
+                            <li><a class="dropdown-item" href="https://www.bundesliga.com/en/bundesliga">Bundesliga</a></li>
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    <div class="league-card">
+        <h2>Premier League News & Updates</h2>
+
+        <div class="subtopic">1. Latest Matches</div>
+        <img src="https://platform.bitterandblue.sbnation.com/wp-content/uploads/sites/29/chorus/uploads/chorus_asset/file/25763224/2066260205.jpg?quality=90&strip=all&crop=0%2C1.6134689582603%2C100%2C93.534432362914&w=2400" alt="Latest Match">
+        <p>Manchester City defeated Liverpool 2-1 in a thrilling clash on December 14, 2025. Arsenal kept
+        their winning streak alive with a 3-0 victory over Chelsea. Tottenham managed a dramatic 2-2
+        draw against Manchester United, keeping fans on the edge of their seats.</p>
+
+        <div class="subtopic">2. Top Scorers</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNlFufedC9X55D1arzaCChAfnr2x8MS5WEZA&s" alt="Top Scorers">
+        <p>Erling Haaland leads the scoring charts with 22 goals, followed by Harry Kane at 18. Mohamed
+        Salah has netted 17 times while Son Heung-min continues to be Tottenham’s main attacking threat.
+        The Golden Boot race is heating up with every match week.</p>
+
+        <div class="subtopic">3. Upcoming Fixtures</div>
+        <img src="hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7QZZyFdgfgRxwbM92u-bYYoPXpLQxhnlgg&s" alt="Upcoming Fixtures">
+        <p>Next week, Manchester United will host Arsenal in a key match impacting the top of the table.
+        Chelsea faces Tottenham in a critical London derby. Liverpool travels to Leicester City seeking
+        to regain form. Fans are eagerly awaiting these high-stakes encounters.</p>
+
+        <div class="subtopic">4. Injuries</div>
+        <img src="https://www.thesun.co.uk/wp-content/uploads/2022/02/NINTCHDBPICT000709438029.jpg?strip=all&w=960" alt="Injuries">
+        <p>Chelsea’s Romelu Lukaku is out with a hamstring strain. Liverpool’s Fabinho is doubtful due
+        to a minor knock. Manchester United’s Bruno Fernandes is returning from injury but will play
+        cautiously. These absences are affecting team strategies and squad rotation.</p>
+
+        <div class="subtopic">5. Transfers & Rumors</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVsWaGCtph2aKpOdoGkDCiCmn9LZBHTD2vag&s" alt="Transfers">
+        <p>The winter transfer window has sparked rumors of Haaland moving to Real Madrid. Chelsea is
+        exploring defensive signings to strengthen their squad. Clubs are actively scouting to reinforce
+        their teams mid-season. Fans are closely monitoring these potential changes.</p>
+
+        <div class="subtopic">6. League Standings</div>
+        <img src="Screenshot 2025-12-16 163147.png" alt="League Standings">
+        <p>Manchester City leads with 45 points, Liverpool is second with 42. Arsenal sits third with 40
+        points. Teams like Brighton and Burnley are fighting to avoid relegation. Each match could
+        change the standings significantly.</p>
+
+        <div class="subtopic">7. Manager Insights</div>
+        <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSRol0hGwaX1jAx-kQaCwo71Bce1UhCQ207uVCpnPoSaFgrqC7QknT1q-P9Xj7-gowz2_5DKg6XkD1a6nM" alt="Managers">
+        <p>Pep Guardiola praised City’s performance and stressed squad depth for upcoming matches. Mikel
+        Arteta highlighted Arsenal’s youth talent making a difference. Jurgen Klopp emphasized focus
+        and rotation to maintain Liverpool’s momentum. Managers are actively strategizing for the final push.</p>
+
+        <div class="subtopic">8. Fan Reactions</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Arsenal-Supporters.jpg/1200px-Arsenal-Supporters.jpg" alt="Fans">
+        <p>Fans are discussing VAR decisions, tactical moves, and standout performances on social media.
+        Debates include refereeing controversies and team strategies. Online communities are vibrant
+        with predictions and passionate opinions. Fan engagement reflects the league’s global appeal.</p>
+
+        <div class="subtopic">9. Breaking News</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdgZHWvIIF5_LN8b7jz3CPubpYFvQF0GnUg&s" alt="Breaking News">
+        <p>The Premier League is considering fixture adjustments due to European competitions. Clubs
+        have raised concerns about player fatigue. Fans are monitoring potential schedule changes
+        closely. Updates will be shared as soon as decisions are finalized, keeping everyone informed.</p>
+
+    </div>
+</div>
+</body>
+
+</html>
